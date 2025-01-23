@@ -34,7 +34,7 @@ defined('MOODLE_INTERNAL') || die();
  * @copyright  2016-2017 Frederic Nevers, www.iteachwithmoodle.com
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class filter_multiembed extends moodle_text_filter {
+class text_filter extends \core_filters\text_filter {
 
     /**
      * Define the filter and run regex for each service
